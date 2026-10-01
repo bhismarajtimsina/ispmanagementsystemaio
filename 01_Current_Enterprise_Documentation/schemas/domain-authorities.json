@@ -1,0 +1,10 @@
+{
+  "billing": "financial and invoice truth",
+  "aaa": "access policy and session accounting",
+  "nms": "observed device and link state",
+  "configuration": "intended active-device configuration state",
+  "fiber": "passive optical connectivity and revisions",
+  "acs_usp": "managed CPE remote-management state",
+  "inventory": "stock lifecycle",
+  "audit": "immutable evidence"
+}

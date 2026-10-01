@@ -1,0 +1,9 @@
+flowchart LR
+  PON[PON Port] --> FE[Fiber End]
+  FE --> FS[Fiber Span]
+  FS --> SP[Splice/Continuity]
+  SP --> CP[Component Port]
+  CP --> OT[Optical Transfer]
+  OT --> CP2[Output Port]
+  CP2 --> DROP[Drop Fiber]
+  DROP --> ONU[ONU Optical Port]

@@ -1,0 +1,33 @@
+openapi: 3.1.0
+info:
+  title: FiberNet Enterprise API
+  version: 3.0.0
+servers:
+  - url: /api/v1
+paths:
+  /organizations:
+    get: {summary: List organizations}
+    post: {summary: Create organization}
+  /customers:
+    get: {summary: List customers}
+  /devices:
+    get: {summary: List devices}
+  /traces:
+    get: {summary: Trace active or passive topology path}
+  /change-sets:
+    post: {summary: Create controlled change set}
+  /radius/sessions:
+    get: {summary: List active AAA sessions}
+  /acs/devices:
+    get: {summary: List TR-069 managed devices}
+  /work-orders:
+    get: {summary: List work orders}
+components:
+  schemas:
+    Error:
+      type: object
+      required: [code, message]
+      properties:
+        code: {type: string}
+        message: {type: string}
+        affected_ids: {type: array, items: {type: string, format: uuid}}

@@ -1,0 +1,11 @@
+Vendor,Model,Firmware family,Monitoring,Inventory,Config read,Config write,Backup,OLT,ONU registration,TR-069,USP,Notes
+MikroTik,TBD,TBD,Capability driven,Capability driven,Capability driven,Capability driven,Capability driven,Model dependent,Model dependent,Model dependent,Model dependent,Must be verified per model/firmware
+Huawei,TBD,TBD,Capability driven,Capability driven,Capability driven,Capability driven,Capability driven,Model dependent,Model dependent,Model dependent,Model dependent,Must be verified per model/firmware
+ZTE,TBD,TBD,Capability driven,Capability driven,Capability driven,Capability driven,Capability driven,Model dependent,Model dependent,Model dependent,Model dependent,Must be verified per model/firmware
+BDCOM,TBD,TBD,Capability driven,Capability driven,Capability driven,Capability driven,Capability driven,Model dependent,Model dependent,Model dependent,Model dependent,Must be verified per model/firmware
+VSOL,TBD,TBD,Capability driven,Capability driven,Capability driven,Capability driven,Capability driven,Model dependent,Model dependent,Model dependent,Model dependent,Must be verified per model/firmware
+FiberHome,TBD,TBD,Capability driven,Capability driven,Capability driven,Capability driven,Capability driven,Model dependent,Model dependent,Model dependent,Model dependent,Must be verified per model/firmware
+Nokia,TBD,TBD,Capability driven,Capability driven,Capability driven,Capability driven,Capability driven,Model dependent,Model dependent,Model dependent,Model dependent,Must be verified per model/firmware
+Cisco,TBD,TBD,Capability driven,Capability driven,Capability driven,Capability driven,Capability driven,Model dependent,Model dependent,Model dependent,Model dependent,Must be verified per model/firmware
+Juniper,TBD,TBD,Capability driven,Capability driven,Capability driven,Capability driven,Capability driven,Model dependent,Model dependent,Model dependent,Model dependent,Must be verified per model/firmware
+Aruba,TBD,TBD,Capability driven,Capability driven,Capability driven,Capability driven,Capability driven,Model dependent,Model dependent,Model dependent,Model dependent,Must be verified per model/firmware

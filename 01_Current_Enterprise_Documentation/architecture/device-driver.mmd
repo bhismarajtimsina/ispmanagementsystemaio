@@ -1,0 +1,8 @@
+flowchart TB
+  Catalog[Superadmin Device Catalog] --> Model[Vendor / Model / Firmware]
+  Model --> Driver[Versioned Driver]
+  Driver --> Monitor[Monitoring]
+  Driver --> Inventory[Inventory]
+  Driver --> Config[Configuration]
+  Driver --> Alarm[Alarm Normalization]
+  Config --> Verify[Read-back Verification]

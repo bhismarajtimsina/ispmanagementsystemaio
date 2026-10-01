@@ -1,0 +1,8 @@
+site_name: CyberSathy FiberNet Enterprise Documentation
+site_description: ISP OSS/BSS, NMS, AAA, Fiber GIS, ACS/USP and automation documentation
+theme:
+  name: material
+nav:
+  - Home: README.md
+  - AI Instructions: CLAUDE.md
+  - Master Index: books/00-master-index.md

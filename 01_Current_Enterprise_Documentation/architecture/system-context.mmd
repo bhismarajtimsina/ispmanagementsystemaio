@@ -1,0 +1,13 @@
+flowchart TB
+  SA[CyberSathy Superadmin] --> CP[Platform Control Plane]
+  CP --> ISP[ISP Tenant]
+  CP --> RES[Reseller Tenant]
+  ISP --> BSS[CRM & Billing]
+  ISP --> AAA[RADIUS / PPPoE / HotSpot]
+  ISP --> NMS[NMS & Automation]
+  ISP --> ACS[TR-069 / USP]
+  ISP --> FIB[Fiber GIS / ODN]
+  NMS --> DEV[Routers / Switches / OLTs / Servers]
+  ACS --> CPE[ONT / CPE]
+  FIB --> CPE
+  BSS --> CUST[Customer Portal]

@@ -1,0 +1,8 @@
+flowchart LR
+  Billing[Billing: financial truth] --> Events
+  AAA[AAA: access-policy truth] --> Events
+  NMS[NMS: observed device truth] --> Events
+  Config[Configuration: intended active-device state] --> Events
+  Fiber[Fiber GIS: passive physical truth] --> Events
+  Audit[Audit/Revisions: historical truth]
+  Events --> Audit
